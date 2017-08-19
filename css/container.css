@@ -129,9 +129,9 @@ nav ul{
 #newsLabel {
     color: #ff0000;
     text-align: center;
-    padding: 15px;
+    padding: 8px;
     font-family: Aharoni;
-    font-size: 170%;
+    font-size: 120%;
     font-style: oblique;
 }
 
@@ -154,7 +154,7 @@ nav ul{
 }
 
 .products img{
-    margin:100px 50px;
+    margin:50px 20px;
     /*vertical-align: middle;
     margin-right: auto;
     margin-left: auto;*/
@@ -163,10 +163,10 @@ nav ul{
 
 .box{
     float: left;
-    margin: 5px 45px 50px;
-    padding: 50px 50px;
+    margin: 1px 45px;
+    padding: 20px 50px 50px;
     text-align: center;
-    font-family: Aharoni;
+    font-family: "Berlin Sans FB";
     color:#363636;
     width: 120px;
     height: 130px;
@@ -183,10 +183,20 @@ nav ul{
     box-shadow: 2px 2px 5px #000000;
 }
 
+#boxes{
+    background-color: #b6b6b6;
+}
+
+.box label{
+    font-size: 600%;
+    color: #ff0000;
+}
+/*
 .boxes img{
     width: 120px;
     height: 90px;
 }
+*/
 
 /*
 SIGN UP PAGE
