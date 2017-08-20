@@ -154,7 +154,7 @@ nav ul{
 }
 
 .products img{
-    margin:50px 20px;
+    margin:50px 30px;
     /*vertical-align: middle;
     margin-right: auto;
     margin-left: auto;*/
@@ -163,8 +163,7 @@ nav ul{
 
 .box{
     float: left;
-    margin: 1px 45px;
-    padding: 20px 50px 50px;
+    padding: 20px 98px 50px;
     text-align: center;
     font-family: "Berlin Sans FB";
     color:#363636;
@@ -178,9 +177,12 @@ nav ul{
 }*/
 
 .box:hover{
-    -moz-box-shadow: 2px 2px 5px #000000;
-    -webkit-box-shadow: 2px 2px 5px #000000;
-    box-shadow: 2px 2px 5px #000000;
+    /*-moz-box-shadow: 0 0 10px #000000;
+    -webkit-box-shadow: 0 0 10px #000000;
+    box-shadow: 0 0 10px #000000;*/
+    background-color: #ffffff;
+    border-top: 1px #b6b6b6 solid;
+    border-bottom: 1px #b6b6b6 solid;
 }
 
 #boxes{
@@ -197,6 +199,39 @@ nav ul{
     height: 90px;
 }
 */
+
+#newsletter form{
+    font-family: Arial;
+    margin: 25px 0;
+}
+
+#newsletterLabel{
+    font-size: 200%;
+    width: 15%;
+    float: left;
+    padding-left: 18px;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+#newsletter .inputGroup .formControl{
+    width: 80%;
+    float: right;
+}
+#newsletter .inputGroup label{
+    padding: 0 227px;
+}
+
+#newsletterButton .formControl{
+    background-color: #ff0000;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#newsletterButton .formControl:hover{
+    background-color: #bf0000;
+}
 
 /*
 SIGN UP PAGE
@@ -261,7 +296,7 @@ SIGN UP PAGE
     text-align: justify;
 }
 
-#submitButton input{
+#submitButton .formControl{
     margin: 20px 35% 40px;
     width: 30%;
     height: 50px;
@@ -269,9 +304,11 @@ SIGN UP PAGE
     color: #ffffff;
     font-size: 140%;
     font-weight: bold;
-    border: 1px #820006 solid;
+    border: none;
 }
 
-#submitButton input:hover{
+#submitButton .formControl:hover{
     background: #bf0000;
 }
+
+
