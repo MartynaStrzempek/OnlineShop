@@ -202,24 +202,26 @@ nav ul{
 
 #newsletter form{
     font-family: Arial;
-    margin: 25px 0;
+
+    width: 80%;
+    margin: 25px auto;
 }
 
 #newsletterLabel{
     font-size: 200%;
     width: 15%;
     float: left;
-    padding-left: 18px;
     color: #ff0000;
     font-weight: bold;
 }
 
 #newsletter .inputGroup .formControl{
-    width: 80%;
-    float: right;
+    width: 60%;
+    float: left;
+    margin-left: 45px;
 }
 #newsletter .inputGroup label{
-    padding: 0 227px;
+    padding-left: 197px;
 }
 
 #newsletterButton .formControl{
@@ -227,6 +229,8 @@ nav ul{
     border: none;
     color: #ffffff;
     font-weight: bold;
+    float: right;
+    width: 15%;
 }
 
 #newsletterButton .formControl:hover{
