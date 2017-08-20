@@ -161,6 +161,12 @@ nav ul{
     width: 20%;
 }
 
+#boxes{
+    background-color: #e3e3e3;
+    border: 1px #e3e3e3 solid;
+}
+
+
 .box{
     float: left;
     padding: 20px 98px 50px;
@@ -170,23 +176,9 @@ nav ul{
     width: 120px;
     height: 130px;
 }
-/*
-.box:hover{
-    -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}*/
 
 .box:hover{
-    /*-moz-box-shadow: 0 0 10px #000000;
-    -webkit-box-shadow: 0 0 10px #000000;
-    box-shadow: 0 0 10px #000000;*/
     background-color: #ffffff;
-    border-top: 1px #b6b6b6 solid;
-    border-bottom: 1px #b6b6b6 solid;
-}
-
-#boxes{
-    background-color: #b6b6b6;
 }
 
 .box label{
@@ -205,6 +197,7 @@ nav ul{
 
     width: 80%;
     margin: 25px auto;
+    padding-bottom: 80px;
 }
 
 #newsletterLabel{
@@ -235,6 +228,19 @@ nav ul{
 
 #newsletterButton .formControl:hover{
     background-color: #bf0000;
+}
+
+footer{
+    align-content: center;
+    font-family: Aharoni;
+    background-color: #e3e3e3;
+    border-top: 1px #b6b6b6 solid;
+}
+
+footer h4{
+    width: 20%;
+    margin: 25px auto;
+
 }
 
 /*
