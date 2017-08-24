@@ -17,7 +17,7 @@
 
 .smallNav a{
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     font-family: Aharoni;
     font-size: 12px;
     text-transform: uppercase;
@@ -25,7 +25,6 @@
 }
 
 .smallNav a:hover{
-    color: #000000;
     font-weight: bold;
     font-style: normal;
 }
@@ -36,7 +35,7 @@
 }
 
 .smallNav li{
-    border-right: #ffffff 1px solid;
+    border-right: #000000 1px solid;
     padding: 0 15px;
 }
 
@@ -45,7 +44,7 @@
 }
 
 #mainHeader img{
-    margin: 40px 0 30px;
+    margin: 20px 0 10px;
 }
 
 .mainNav{
@@ -163,7 +162,6 @@ nav ul{
 
 #boxes{
     background-color: #e3e3e3;
-    border: 1px #e3e3e3 solid;
 }
 
 
@@ -266,7 +264,9 @@ SIGN UP PAGE
 
 #inputWindows{
     margin: 20px 0;
+    color: #b6b6b6;
 }
+
 
 .formControl:focus{
     border: 1px #ff0000 solid;
@@ -293,10 +293,15 @@ SIGN UP PAGE
     left: 13px;
 }
 
-.formControl:focus + label{
+.formControl:focus + label,
+.hasValue + label{
     top: 12px;
     font-size: 60%;
     color: #ff0000;
+}
+
+.hasValue{
+    border-color: #000000;
 }
 
 /*naprawic,zeby mozna bylo klikac na label i autouzupelnianie*/
